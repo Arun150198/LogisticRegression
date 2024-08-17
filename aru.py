@@ -13,8 +13,8 @@ st.set_page_config(page_title='Heart_Disease_Prediction',layout='wide')
 
 df=pd.read_csv('heart.csv')
 
-c1,c2,c3=st.columns(3)
-c2.title('Hear Disease Prediction ')
+
+st.title('Heart Disease Prediction ')
 st.markdown('________')
 
 a1,a2,a3=st.columns((3))
